@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B601E942B89C3C800A5E41F /* loginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B601E932B89C3C800A5E41F /* loginModel.swift */; };
+		1B601EB22B8B5E6B00A5E41F /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B601EB12B8B5E6B00A5E41F /* LoginController.swift */; };
+		1B601EB42B8B64A500A5E41F /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B601EB32B8B64A500A5E41F /* HomePageView.swift */; };
+		1B832D4D2B89C0D100AC1621 /* TontrixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B832D4C2B89C0D100AC1621 /* TontrixApp.swift */; };
+		1B832D4F2B89C0D100AC1621 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B832D4E2B89C0D100AC1621 /* ContentView.swift */; };
+		1B832D512B89C0D200AC1621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B832D502B89C0D200AC1621 /* Assets.xcassets */; };
+		1B832D542B89C0D200AC1621 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B832D532B89C0D200AC1621 /* Preview Assets.xcassets */; };
+		1BE835002BECE0F900A69BBB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE834FF2BECE0F900A69BBB /* HomeView.swift */; };
+		1BE835032BECE13F00A69BBB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE835022BECE13F00A69BBB /* ProfileView.swift */; };
+		1BE835052BECEF9400A69BBB /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE835042BECEF9400A69BBB /* NavigationController.swift */; };
+		1BE835072BECF63100A69BBB /* Stream1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE835062BECF63100A69BBB /* Stream1.swift */; };
+		1BE835092BECF63D00A69BBB /* Stream2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE835082BECF63D00A69BBB /* Stream2.swift */; };
+		1BE8350B2BECF64A00A69BBB /* Stream3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8350A2BECF64A00A69BBB /* Stream3.swift */; };
+		1BE835102BEF10BE00A69BBB /* FormDetailTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8350E2BEF10BE00A69BBB /* FormDetailTable.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B601E932B89C3C800A5E41F /* loginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginModel.swift; sourceTree = "<group>"; };
+		1B601EB12B8B5E6B00A5E41F /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		1B601EB32B8B64A500A5E41F /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		1B832D492B89C0D100AC1621 /* Tontrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tontrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B832D4C2B89C0D100AC1621 /* TontrixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TontrixApp.swift; sourceTree = "<group>"; };
+		1B832D4E2B89C0D100AC1621 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B832D502B89C0D200AC1621 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B832D532B89C0D200AC1621 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1BE834FF2BECE0F900A69BBB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1BE835022BECE13F00A69BBB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1BE835042BECEF9400A69BBB /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		1BE835062BECF63100A69BBB /* Stream1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream1.swift; sourceTree = "<group>"; };
+		1BE835082BECF63D00A69BBB /* Stream2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream2.swift; sourceTree = "<group>"; };
+		1BE8350A2BECF64A00A69BBB /* Stream3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream3.swift; sourceTree = "<group>"; };
+		1BE8350F2BEF10BE00A69BBB /* FormDetailTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FormDetailTable.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B832D462B89C0D100AC1621 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B832D402B89C0D100AC1621 = {
+			isa = PBXGroup;
+			children = (
+				1BE835112BEF114F00A69BBB /* DBmodel */,
+				1B832D4B2B89C0D100AC1621 /* Tontrix */,
+				1B832D4A2B89C0D100AC1621 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B832D4A2B89C0D100AC1621 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B832D492B89C0D100AC1621 /* Tontrix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B832D4B2B89C0D100AC1621 /* Tontrix */ = {
+			isa = PBXGroup;
+			children = (
+				1B832D4C2B89C0D100AC1621 /* TontrixApp.swift */,
+				1B832D5C2B89C12F00AC1621 /* Controller */,
+				1B832D5B2B89C12700AC1621 /* VIew */,
+				1B832D5A2B89C11800AC1621 /* Model */,
+				1B832D502B89C0D200AC1621 /* Assets.xcassets */,
+				1B832D522B89C0D200AC1621 /* Preview Content */,
+			);
+			path = Tontrix;
+			sourceTree = "<group>";
+		};
+		1B832D522B89C0D200AC1621 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1B832D532B89C0D200AC1621 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1B832D5A2B89C11800AC1621 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B601E932B89C3C800A5E41F /* loginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B832D5B2B89C12700AC1621 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				1B832D4E2B89C0D100AC1621 /* ContentView.swift */,
+				1B601EB32B8B64A500A5E41F /* HomePageView.swift */,
+				1BE835042BECEF9400A69BBB /* NavigationController.swift */,
+				1BE835012BECE11500A69BBB /* Profile */,
+				1BE834FE2BECE0CC00A69BBB /* Home */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		1B832D5C2B89C12F00AC1621 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B601EB12B8B5E6B00A5E41F /* LoginController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1BE834FE2BECE0CC00A69BBB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1BE834FF2BECE0F900A69BBB /* HomeView.swift */,
+				1BE835062BECF63100A69BBB /* Stream1.swift */,
+				1BE835082BECF63D00A69BBB /* Stream2.swift */,
+				1BE8350A2BECF64A00A69BBB /* Stream3.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1BE835012BECE11500A69BBB /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				1BE835022BECE13F00A69BBB /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1BE835112BEF114F00A69BBB /* DBmodel */ = {
+			isa = PBXGroup;
+			children = (
+				1BE8350E2BEF10BE00A69BBB /* FormDetailTable.xcdatamodeld */,
+			);
+			path = DBmodel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B832D482B89C0D100AC1621 /* Tontrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B832D572B89C0D200AC1621 /* Build configuration list for PBXNativeTarget "Tontrix" */;
+			buildPhases = (
+				1B832D452B89C0D100AC1621 /* Sources */,
+				1B832D462B89C0D100AC1621 /* Frameworks */,
+				1B832D472B89C0D100AC1621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tontrix;
+			productName = Tontrix;
+			productReference = 1B832D492B89C0D100AC1621 /* Tontrix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B832D412B89C0D100AC1621 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1B832D482B89C0D100AC1621 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1B832D442B89C0D100AC1621 /* Build configuration list for PBXProject "Tontrix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B832D402B89C0D100AC1621;
+			productRefGroup = 1B832D4A2B89C0D100AC1621 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B832D482B89C0D100AC1621 /* Tontrix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B832D472B89C0D100AC1621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B832D542B89C0D200AC1621 /* Preview Assets.xcassets in Resources */,
+				1B832D512B89C0D200AC1621 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B832D452B89C0D100AC1621 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B832D4F2B89C0D100AC1621 /* ContentView.swift in Sources */,
+				1BE835052BECEF9400A69BBB /* NavigationController.swift in Sources */,
+				1B601EB22B8B5E6B00A5E41F /* LoginController.swift in Sources */,
+				1B832D4D2B89C0D100AC1621 /* TontrixApp.swift in Sources */,
+				1BE8350B2BECF64A00A69BBB /* Stream3.swift in Sources */,
+				1BE835092BECF63D00A69BBB /* Stream2.swift in Sources */,
+				1BE835002BECE0F900A69BBB /* HomeView.swift in Sources */,
+				1BE835102BEF10BE00A69BBB /* FormDetailTable.xcdatamodeld in Sources */,
+				1B601E942B89C3C800A5E41F /* loginModel.swift in Sources */,
+				1BE835032BECE13F00A69BBB /* ProfileView.swift in Sources */,
+				1BE835072BECF63100A69BBB /* Stream1.swift in Sources */,
+				1B601EB42B8B64A500A5E41F /* HomePageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1B832D552B89C0D200AC1621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B832D562B89C0D200AC1621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B832D582B89C0D200AC1621 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tontrix/Preview Content\"";
+				DEVELOPMENT_TEAM = H69VDF2XHA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftBeanbag.Tontrix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B832D592B89C0D200AC1621 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tontrix/Preview Content\"";
+				DEVELOPMENT_TEAM = H69VDF2XHA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftBeanbag.Tontrix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B832D442B89C0D100AC1621 /* Build configuration list for PBXProject "Tontrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B832D552B89C0D200AC1621 /* Debug */,
+				1B832D562B89C0D200AC1621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B832D572B89C0D200AC1621 /* Build configuration list for PBXNativeTarget "Tontrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B832D582B89C0D200AC1621 /* Debug */,
+				1B832D592B89C0D200AC1621 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1BE8350E2BEF10BE00A69BBB /* FormDetailTable.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1BE8350F2BEF10BE00A69BBB /* FormDetailTable.xcdatamodel */,
+			);
+			currentVersion = 1BE8350F2BEF10BE00A69BBB /* FormDetailTable.xcdatamodel */;
+			path = FormDetailTable.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1B832D412B89C0D100AC1621 /* Project object */;
+}
